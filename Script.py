@@ -4,7 +4,7 @@ class script(object):
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴏʀ Sᴇᴀʀᴄʜ Pᴍ Aɴᴅ Eɴᴊᴏʏ 😍.
  
  
- ★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/filmztube'>𝗙𝗶𝗹𝗺𝘇𝘁𝘂𝗯𝗲 ⎚</a></b>"""
+ ★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/kannadahdall'>kannadahdall� ⎚</a></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 ✨ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs ✨.</b>"""
@@ -129,7 +129,7 @@ Nᴀᴍᴇ - {}"""
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
 
-<a href=https://t.me/filmztube_openlink/33> ᴍᴜsᴛ ᴜsᴇ ᴄᴏʀʀᴇᴄᴛ ғᴀʀᴍᴇᴛ </a>
+<a href=https://t.me/kannadahdall_openlink/33> ᴍᴜsᴛ ᴜsᴇ ᴄᴏʀʀᴇᴄᴛ ғᴀʀᴍᴇᴛ </a>
 
 STILL NOT FOUND? YOU CAN GET IT BY REQUESTING ➤
     
@@ -164,7 +164,7 @@ Language : </code>
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 🤪, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/filmztube_openlink/25> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+<b>──────「<a href=https://t.me/kannadahdall_openlink/25> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
 
 Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
 
@@ -174,7 +174,7 @@ sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢ
 
 sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://urlshortx.com/ref/Bhajag>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/filmztube_openlink/25> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/kannadahdall_openlink/25> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
 
 ➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
 
@@ -237,7 +237,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     CAPTION = """
 <b><code>{file_name}</code>
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ: [Filmztube BOT](https://t.me/Filmztube_BOT)</b>"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ: [kannadahdall BOT](https://t.me/kannadahdall_BOT)</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -251,7 +251,7 @@ IMDb Data:
 
 🔖 sʜᴏʀᴛ : {plot}
 
-★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <b>[Filmztube ⎚](https://t.me/Filmztube)</b></b>"""
+★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <b>[kannadahdall ⎚](https://t.me/kannadahdall)</b></b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
