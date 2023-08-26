@@ -35,7 +35,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[InlineKeyboardButton("send movie name ", url="https://t.me/kannadahdall")]]
+        buttons = [[InlineKeyboardButton("send movie name ", url=CHNL_LNK)]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -73,7 +73,7 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[InlineKeyboardButton("send movie name ", url="https://t.me/kannadahdall")]]
+        buttons = [[InlineKeyboardButton("send movie name ", url=CHNL_LNK)]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
             photo=random.choice(PICS),
