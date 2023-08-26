@@ -15,25 +15,25 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '4234473'))
 API_HASH = environ.get('API_HASH', '6d9e82c9edc244b0c0a20d8fa89f9784')
-BOT_TOKEN = environ.get('BOT_TOKEN',"6457189325:AAEdGDwKcHJeMO0i-bo2Mi1bXzY1PV204UM")# "5965090572:AAEaBQxjFwnaa2_g__n6nLmnKT7kZPq4sVU")
+BOT_TOKEN = environ.get('BOT_TOKEN',"6350885012:AAGrO2k8fLmZhUCP0h-H-avG2VzfPQTgqoI")# "5965090572:AAEaBQxjFwnaa2_g__n6nLmnKT7kZPq4sVU")
 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://graph.org/file/8563455b643275f11b8a7.jpg https://graph.org/file/87df8a16959360259df44.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+PICS = (environ.get('PICS', '')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/bbe8f0853e55012baea8b.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/8faa88f9046f3f901e174.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '634637418').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001912727499').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5456848840 1946827941').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5651594253').split()]
-auth_channel = environ.get('AUTH_CHANNEL','-1001914868571')
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '565159425').split()]
+auth_channel = environ.get('AUTH_CHANNEL','')
 auth_grp = environ.get('AUTH_GROUP','')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -66,7 +66,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FILMZ_TUBE')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+w0K0MEA4lRhmZjE1')
 UPDATE_CHANNEL = environ.get('CHNL_LNK', 'https://t.me/+OJPH-0u_62FmZjI9')
 MSG_ALRT = environ.get('MSG_ALRT', '❤ ᴊᴏɪɴ @FILMZTUBE ❤')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001943990782))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001945879112))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'filmz_tube')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/filmztube_openlink/34')
