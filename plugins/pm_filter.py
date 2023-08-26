@@ -910,9 +910,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             [
                              [
                               InlineKeyboardButton('🔰 ᴍᴀɪɴ ɢʀᴏᴜᴘ 🔰', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ⚜️', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ⚜️', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
         ]]
                         )
                     )
@@ -1002,9 +1002,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                  [
                  InlineKeyboardButton('🔰 ᴍᴀɪɴ ɢʀᴏᴜᴘ 🔰', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ⚜️', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ⚜️', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
         ]]
             )
         )
@@ -1266,7 +1266,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/kannadahdall")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1291,7 +1291,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/kannadahdall")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1314,7 +1314,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/kannadahdall")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1343,7 +1343,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/kannadahdall")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
