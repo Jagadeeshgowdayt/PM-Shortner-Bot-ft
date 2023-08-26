@@ -157,9 +157,9 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔰 ᴍᴀɪɴ ɢʀᴏᴜᴘ 🔰', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ⚜️', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ⚜️', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
                          ]
                         ]
                     )
@@ -176,9 +176,9 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔰ᴍᴀɪɴ ɢʀᴏᴜᴘ', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
                          ]
                         ]
                     )
@@ -347,9 +347,9 @@ async def start(client, message):
                     [
                      [
                           InlineKeyboardButton('🔰ᴍᴀɪɴ ɢʀᴏᴜᴘ', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
                          ]
                     ]
                 )
@@ -409,9 +409,9 @@ async def start(client, message):
                     [
                      [
                           InlineKeyboardButton('🔰ᴍᴀɪɴ ɢʀᴏᴜᴘ', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
                          ]
                     ]
                 )
@@ -466,9 +466,9 @@ async def start(client, message):
             [
              [
                           InlineKeyboardButton('🔰ᴍᴀɪɴ ɢʀᴏᴜᴘ', url=CHNL_LNK),
-                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+OJPH-0u_62FmZjI9")
+                          InlineKeyboardButton('⚜️ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/kannadahdall")
                        ],[
-                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/+nql2bD_RwpQ2OGNl")
+                          InlineKeyboardButton("🔱ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ🔱", url="https://t.me/kannadahdall")
                          ]
             ]
         )
