@@ -67,7 +67,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. \n\nTʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nJᴏɪɴ ᴀɴᴅ Sᴇᴀʀᴄʜ Hᴇʀᴇ -@Filmztube</b>")
+            return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. \n\nTʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nJᴏɪɴ ᴀɴᴅ Sᴇᴀʀᴄʜ Hᴇʀᴇ -@GRP_LNK</b>")
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -77,8 +77,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/filmztube_official>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/filmztube_official")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/GRP_LNK_official>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/GRP_LNK_official")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -151,7 +151,7 @@ async def next_page(bot, query):
 ])
         btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/filmztube_openlink/29")])
+                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
             
     else:
         btn = []
@@ -237,7 +237,7 @@ async def next_page(bot, query):
     time_difference = timedelta(hours=cur_time.hour, minutes=cur_time.minute, seconds=(cur_time.second+(cur_time.microsecond/1000000))) - timedelta(hours=curr_time.hour, minutes=curr_time.minute, seconds=(curr_time.second+(curr_time.microsecond/1000000)))
     remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
     if settings["button"]:
-        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ {query.from_user.mention}\n\nFᴏᴜɴᴅ {total} ʀᴇsᴜʟᴛ ɪɴ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ  :  <b><a href=\"https://telegram.me/filmztube\">FILMZTUBE</a></b> \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ \n\n</b>"
+        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ {query.from_user.mention}\n\nFᴏᴜɴᴅ {total} ʀᴇsᴜʟᴛ ɪɴ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ  :  <b><a href=\"https://telegram.me/GRP_LNK\">GRP_LNK</a></b> \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ \n\n</b>"
     else:
         # cap = f"<b>Hᴇʏ {query.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
         cap = f"<b>Hᴇʏ {query.from_user.mention}, Fᴏᴜɴᴅ {total} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
@@ -398,20 +398,20 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         if settings['auto_delete']:
             btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/filmztube_openlink/29")])
+                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
             
 
         else:
             btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/filmztube_openlink/29")])
+                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
             
                 
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/filmztube_openlink/29")])
+                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
         
 
     # btn.insert(0, [
@@ -1903,7 +1903,7 @@ async def auto_filter(client, msg, spoll=False):
     #         for file in files
     #     ]
         btn.insert(0, [
-    InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/filmztube_openlink/29")
+    InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")
 ])
 
         
@@ -1996,7 +1996,7 @@ async def auto_filter(client, msg, spoll=False):
     #     )
     # else:
     if settings["button"]:
-        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ {message.from_user.mention}\n\nFᴏᴜɴᴅ {total_results} ʀᴇsᴜʟᴛ ɪɴ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ  :  <b><a href=\"https://telegram.me/filmztube\">FILMZTUBE</a></b> \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ \n\n</b>"
+        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ {message.from_user.mention}\n\nFᴏᴜɴᴅ {total_results} ʀᴇsᴜʟᴛ ɪɴ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ  :  <b><a href=\"https://telegram.me/GRP_LNK\">GRP_LNK</a></b> \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ \n\n</b>"
     else:
         # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
         cap = f"<b>Hᴇʏ {message.from_user.mention}, Fᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
