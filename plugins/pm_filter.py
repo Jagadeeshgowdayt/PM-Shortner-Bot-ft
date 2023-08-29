@@ -152,7 +152,7 @@ async def next_page(bot, query):
 ])
         btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
+                InlineKeyboardButton(f'how to open', url="https://t.me/kannadahdall/44")])
             
     else:
         btn = []
@@ -399,20 +399,20 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         if settings['auto_delete']:
             btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
+                InlineKeyboardButton(f'how to open', url="https://t.me/kannadahdall/44")])
             
 
         else:
             btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
+                InlineKeyboardButton(f'how to open', url="https://t.me/kannadahdall/44")])
             
                 
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
                  [
-                InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")])
+                InlineKeyboardButton(f'how to open', url="https://t.me/kannadahdall/44")])
         
 
     # btn.insert(0, [
@@ -1905,7 +1905,7 @@ async def auto_filter(client, msg, spoll=False):
     #         for file in files
     #     ]
         btn.insert(0, [
-    InlineKeyboardButton(f'🤩 ғᴏʀ ᴅɪʀᴇᴄᴛ ғɪʟᴇs', url="https://t.me/GRP_LNK_openlink/29")
+    InlineKeyboardButton(f'how to open', url="https://t.me/kannadahdall/44")
 ])
 
         
