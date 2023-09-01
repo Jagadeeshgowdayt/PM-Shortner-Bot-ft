@@ -51,12 +51,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL2 = environ.get('SHORTLINK_URL', 'links4money.com')
-SHORTLINK_API2 = environ.get('SHORTLINK_API', '362a9af6c0b2d8dec2b5d699f38189500963d6a3')
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'links4money.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '362a9af6c0b2d8dec2b5d699f38189500963d6a3')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'links4money.com')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '362a9af6c0b2d8dec2b5d699f38189500963d6a3')
+SHORTLINK_URL2 = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API2 = environ.get('SHORTLINK_API', '24ebe1964a02f14afc3d299096e6ac54c089ea6c')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '24ebe1964a02f14afc3d299096e6ac54c089ea6c')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'tnshort.net')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '24ebe1964a02f14afc3d299096e6ac54c089ea6c')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
